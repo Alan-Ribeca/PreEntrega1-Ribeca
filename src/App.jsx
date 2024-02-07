@@ -6,7 +6,9 @@ export const App = () => {
     return (
         <>
             <Navbar/>
-            <ItemListContainer greeting={"¡Bienvenidos a mi futura pagina!"} />
+            <main className="main">
+                <ItemListContainer greeting={"¡Bienvenidos a mi futura pagina!"} />
+            </main>
         </>
     )
 }
