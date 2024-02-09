@@ -3,7 +3,7 @@ import './itemListContainer.scss'
 import { useState, useEffect } from 'react'
 import { ItemList } from '../itemList/ItemLis'
 // eslint-disable-next-line react/prop-types
-export const ItemListContainer = ({ greeting }) => {
+export const ItemListContainer = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
         fetch("./data/productos.json")
@@ -15,7 +15,6 @@ export const ItemListContainer = ({ greeting }) => {
 
     return (
         <section className='containerProductos'>
-            <p>{greeting}</p>
             <ItemList products={ products } />
         </section>
     )
