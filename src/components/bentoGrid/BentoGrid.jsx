@@ -4,7 +4,7 @@ export const BentoGrid = () => {
   return (
     <section className="bento">
       <div className="auri">
-        <img src="./img/auri1.png" alt="" />
+        <img src="./img/auri.jpg" alt="" />
         <p className="nombreProducto auricular">Auriculares</p>
         <button className="bentoButon">Comprar ahora</button>
       </div>
@@ -14,18 +14,18 @@ export const BentoGrid = () => {
         <button className="bentoButon">Comprar ahora</button>
       </div>
       <div className="pc">
-        <img src="./img/pc.png" alt="" />
+        <img src="./img/pcNueva.jpg" alt="" />
         <p className="nombreProducto pcFoto">Pc Gamer</p>
         <button className="bentoButon">Comprar ahora</button>
       </div>
       <div className="celu">
-        <img src="./img/celu.png" alt="" />
+        <img src="./img/celuMasBajo.jpg" alt="" />
         <p className="nombreProducto celuFoto">Celulares</p>
         <button className="bentoButon">Comprar ahora</button>
       </div>
       <div className="netbo">
         <img src="./img/laptop.png" alt="" />
-        <p className="nombreProducto netboFoto">Laptops</p>
+        <p className="nombreProducto netboFoto">Netbook</p>
         <button className="bentoButon">Comprar ahora</button>
       </div>
       <div className="moni">
