@@ -19,7 +19,7 @@ export const Footer = () => {
         </svg>
         <h3 className="tituloEscudo">Seguridad en todo momento</h3>
         <strong className="proteccion-p">
-          ¿No estás satisfecho? ¡Devuélvelo! En nuestra plataforma, estás
+          <strong className="signo">¿</strong> No estás satisfecho <strong className="signo">?</strong>  <strong className="signo">¡</strong> Devuélvelo <strong className="signo">!</strong> En nuestra plataforma, estás
           siempre protegido. No hay límites para lo que puedes hacer.
         </strong>
       </div>
@@ -37,8 +37,8 @@ export const Footer = () => {
         </svg>
         <h3 className="tituloTarjeta">Elegí cómo pagar</h3>
         <strong className="infoCard">
-          Podés pagar con tarjeta, débito, efectivo o hasta 12 cuotas sin
-          tarjeta con Mercado Crédito.
+          Podés pagar con tarjeta, débito, efectivo o hasta <strong className="sinTarjeta">12 cuotas sin
+          tarjeta</strong> con Mercado Crédito.
         </strong>
       </section>
       <div className="derechos">

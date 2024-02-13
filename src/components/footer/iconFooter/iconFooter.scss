@@ -2,7 +2,12 @@
   margin-left: 2rem;
 
   .tituloFooter {
+    color: white;
     margin: 0rem 0 0.5rem 0.8rem;
+
+    .puntosTitle {
+      color: green;
+    }
   }
 
   .icon-list {
@@ -14,6 +19,10 @@
 
       .icons {
         padding-right: 0.5rem;
+      }
+
+      .pFooter {
+        color: white;
       }
     }
   }
